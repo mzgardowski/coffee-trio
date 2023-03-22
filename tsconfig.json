@@ -14,7 +14,8 @@
     "jsx": "react-native",
     "noEmit": true,
     "resolveJsonModule": true,
-    "target": "esnext"
+    "target": "esnext",
+    "skipLibCheck": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "babel.config.js"]
