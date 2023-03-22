@@ -2,16 +2,16 @@
   "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
     "types": ["node"],
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
       "@env": ["node_modules/react-native-dotenv"],
-      "coffeeTrio/*": ["./*"]
+      "src/*": ["src/*"]
     },
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "isolatedModules": true,
-    "jsx": "react",
+    "jsx": "react-native",
     "noEmit": true,
     "resolveJsonModule": true,
     "target": "esnext"
