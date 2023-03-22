@@ -1,4 +1,29 @@
 {
   "migIndex": 1,
-  "data": []
+  "data": [
+    {
+      "path": "src/assets/fonts/DancingScript-Bold.ttf",
+      "sha1": "42858229a137c5188a859df102afff145200114d"
+    },
+    {
+      "path": "src/assets/fonts/DancingScript-Medium.ttf",
+      "sha1": "30711d9cdbed046fef8128082c6cc1a9287dbc7c"
+    },
+    {
+      "path": "src/assets/fonts/DancingScript-Regular.ttf",
+      "sha1": "b52e869bd47b6e98fd907ae00b1828916451b3b0"
+    },
+    {
+      "path": "src/assets/fonts/Inconsolata-Bold.ttf",
+      "sha1": "82ff0ef4a72d1414995377a3b30af84381d7b85a"
+    },
+    {
+      "path": "src/assets/fonts/Inconsolata-Light.ttf",
+      "sha1": "3f39d85ade68cdae3ac451e0832d65f294de8ee5"
+    },
+    {
+      "path": "src/assets/fonts/Inconsolata-Regular.ttf",
+      "sha1": "5236122ed33eacc57aa314cedbb46ff31b1a52a2"
+    }
+  ]
 }
