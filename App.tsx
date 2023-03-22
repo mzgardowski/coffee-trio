@@ -6,8 +6,8 @@
  */
 
 import React from 'react';
-import {SafeAreaView, ScrollView, Text} from 'react-native';
-import {APP_NAME} from '@env';
+import { SafeAreaView, ScrollView, Text } from 'react-native';
+import { APP_NAME } from '@env';
 
 function App(): JSX.Element {
   return (

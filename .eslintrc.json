@@ -3,7 +3,11 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended", "standard-with-typescript"],
+  "extends": [
+    "plugin:react/recommended",
+    "standard-with-typescript",
+    "prettier"
+  ],
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
@@ -24,11 +28,11 @@
     "react/default-props-match-prop-types": "off",
     "react/require-default-props": "off",
     "react/jsx-props-no-spreading": "off",
-    "react/jsx-filename-extension": [1, {"extensions": [".tsx", ".ts"]}],
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts"] }],
     "no-use-before-define": "off",
     "no-param-reassign": [
       "error",
-      {"props": true, "ignorePropertyModificationsFor": ["state"]}
+      { "props": true, "ignorePropertyModificationsFor": ["state"] }
     ],
     "react/no-unstable-nested-components": [
       "error",
