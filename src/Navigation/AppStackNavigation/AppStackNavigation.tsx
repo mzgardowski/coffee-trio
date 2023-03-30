@@ -12,12 +12,28 @@ export type StackNavigationInterface = {
 
 const StackNavigation = createStackNavigator<StackNavigationInterface>();
 
+const defaultScreenOptions = {
+  headerShown: false,
+};
+
 const AppStackNavigation = () => {
   return (
     <StackNavigation.Navigator initialRouteName="WelcomeScreen">
-      <StackNavigation.Screen name="LoginScreen" component={LoginScreen} />
-      <StackNavigation.Screen name="Sandbox" component={Sandbox} />
-      <StackNavigation.Screen name="WelcomeScreen" component={WelcomeScreen} />
+      <StackNavigation.Screen
+        name="WelcomeScreen"
+        component={WelcomeScreen}
+        options={{ ...defaultScreenOptions }}
+      />
+      <StackNavigation.Screen
+        name="LoginScreen"
+        component={LoginScreen}
+        options={{ ...defaultScreenOptions }}
+      />
+      <StackNavigation.Screen
+        name="Sandbox"
+        component={Sandbox}
+        options={{ ...defaultScreenOptions }}
+      />
     </StackNavigation.Navigator>
   );
 };

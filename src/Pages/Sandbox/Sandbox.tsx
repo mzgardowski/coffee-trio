@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
-import { colors } from 'src/assets/colors';
+import { colors } from 'src/utils/colors';
 import ArrowBack from 'src/assets/icons/ArrowBackIcon';
 import ArrowForwardIcon from 'src/assets/icons/ArrowForwardIcon';
 import CoffeeCupIcon from 'src/assets/icons/CoffeeCupIcon';
@@ -20,8 +20,8 @@ const Sandbox = () => {
       <Text style={styles.textStyleInconsolataBold}>Hello World</Text>
       <Text style={styles.textStyleInconsolataRegular}>Hello World</Text>
       <Text style={styles.textStyleInconsolataLight}>Hello World</Text>
-      <CustomButton text="Login" typeBtn="primary" />
-      <CustomButton text="Register" typeBtn="secondary" />
+      <CustomButton title="Login" typeBtn="primary" />
+      <CustomButton title="Register" typeBtn="secondary" />
       <HomeIcon />
       <PersonIcon />
       <SearchIcon />
