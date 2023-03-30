@@ -1,7 +1,47 @@
 import React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
 import { colors } from 'src/assets/colors';
+import ArrowBack from 'src/assets/icons/ArrowBackIcon';
+import ArrowForwardIcon from 'src/assets/icons/ArrowForwardIcon';
+import CoffeeCupIcon from 'src/assets/icons/CoffeeCupIcon';
+import DoneIcon from 'src/assets/icons/DoneIcon';
+import HangOutIcon from 'src/assets/icons/HangOutIcon';
+import HomeIcon from 'src/assets/icons/HomeIcon';
+import PersonIcon from 'src/assets/icons/PersonIcon';
+import SearchIcon from 'src/assets/icons/SearchIcon';
 import CustomButton from 'src/Components/CustomButton';
+
+const Sandbox = () => {
+  return (
+    <View>
+      <Text style={styles.textStyle}>Hello World</Text>
+      <Text style={styles.textStyleDancingMedium}>Hello World</Text>
+      <Text style={styles.textStyleDancingRegular}>Hello World</Text>
+      <Text style={styles.textStyleInconsolataBold}>Hello World</Text>
+      <Text style={styles.textStyleInconsolataRegular}>Hello World</Text>
+      <Text style={styles.textStyleInconsolataLight}>Hello World</Text>
+      <CustomButton text="Login" typeBtn="primary" />
+      <CustomButton text="Register" typeBtn="secondary" />
+      <HomeIcon />
+      <PersonIcon />
+      <SearchIcon />
+      <DoneIcon />
+      <ArrowBack />
+      <ArrowForwardIcon />
+      <CoffeeCupIcon />
+      <HangOutIcon width={100} height={100} />
+      <View style={[styles.background, styles.blockSize]} />
+      <View style={[styles.secondarybBackground, styles.blockSize]} />
+      <View style={[styles.primaryButton, styles.blockSize]} />
+      <View style={[styles.greenBtn, styles.blockSize]} />
+      <View style={[styles.redBtn, styles.blockSize]} />
+      <View style={[styles.textPrimary, styles.blockSize]} />
+      <View style={[styles.borderPrimary, styles.blockSize]} />
+      <View style={[styles.borderSecondary, styles.blockSize]} />
+      <View style={[styles.borderRed, styles.blockSize]} />
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
   blockSize: {
@@ -80,29 +120,5 @@ const styles = StyleSheet.create({
     fontSize: 22,
   },
 });
-
-const Sandbox = () => {
-  return (
-    <View>
-      <Text style={styles.textStyle}>Hello World</Text>
-      <Text style={styles.textStyleDancingMedium}>Hello World</Text>
-      <Text style={styles.textStyleDancingRegular}>Hello World</Text>
-      <Text style={styles.textStyleInconsolataBold}>Hello World</Text>
-      <Text style={styles.textStyleInconsolataRegular}>Hello World</Text>
-      <Text style={styles.textStyleInconsolataLight}>Hello World</Text>
-      <CustomButton text="Login" typeBtn="primary" />
-      <CustomButton text="Register" typeBtn="secondary" />
-      <View style={[styles.background, styles.blockSize]} />
-      <View style={[styles.secondarybBackground, styles.blockSize]} />
-      <View style={[styles.primaryButton, styles.blockSize]} />
-      <View style={[styles.greenBtn, styles.blockSize]} />
-      <View style={[styles.redBtn, styles.blockSize]} />
-      <View style={[styles.textPrimary, styles.blockSize]} />
-      <View style={[styles.borderPrimary, styles.blockSize]} />
-      <View style={[styles.borderSecondary, styles.blockSize]} />
-      <View style={[styles.borderRed, styles.blockSize]} />
-    </View>
-  );
-};
 
 export default Sandbox;

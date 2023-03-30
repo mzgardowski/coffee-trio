@@ -1,14 +1,14 @@
 import React from 'react';
 import { SafeAreaView, ScrollView } from 'react-native';
 import SandBox from './src/Pages/Sandbox';
+import { NavigationContainer } from '@react-navigation/native';
+import AppStackNavigation from './src/Navigation/AppStackNavigation';
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView>
-      <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <SandBox />
-      </ScrollView>
-    </SafeAreaView>
+    <NavigationContainer>
+      <AppStackNavigation />
+    </NavigationContainer>
   );
 }
 

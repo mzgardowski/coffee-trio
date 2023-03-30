@@ -24,6 +24,7 @@
     "no-unused-vars": "off",
     "react/prop-types": "off",
     "no-restricted-exports": "off",
+    "@typescript-eslint/consistent-type-definitions": "off",
     "react/function-component-definition": [
       2,
       {

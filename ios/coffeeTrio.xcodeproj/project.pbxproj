@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* coffeeTrioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* coffeeTrioTests.m */; };
+		0651ECF1F5814038935B57D4 /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB200C37CE84A269485C515 /* DancingScript-Regular.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-coffeeTrio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-coffeeTrio.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		21E791217ADF49D88B210B06 /* Inconsolata-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1D41F8981A642F0B38E78DA /* Inconsolata-Light.ttf */; };
+		5FE2B69C81B944038898EE48 /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF08A86028AD4AD0B34D69C2 /* DancingScript-Medium.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-coffeeTrio-coffeeTrioTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-coffeeTrio-coffeeTrioTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		AA8B0DDC8288487CA5667DC7 /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1EC3C6C0CE243CEB5298E78 /* DancingScript-Bold.ttf */; };
-		5FE2B69C81B944038898EE48 /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF08A86028AD4AD0B34D69C2 /* DancingScript-Medium.ttf */; };
-		0651ECF1F5814038935B57D4 /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB200C37CE84A269485C515 /* DancingScript-Regular.ttf */; };
 		E77A62BA1EF648E0B9348A0E /* Inconsolata-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83AB9A1DE0E04FB396298592 /* Inconsolata-Bold.ttf */; };
-		21E791217ADF49D88B210B06 /* Inconsolata-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1D41F8981A642F0B38E78DA /* Inconsolata-Light.ttf */; };
 		F008DA8DE4574D128268666F /* Inconsolata-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5AE48E9D7BB4B7E8D933459 /* Inconsolata-Regular.ttf */; };
 /* End PBXBuildFile section */
 
@@ -48,14 +48,14 @@
 		5B7EB9410499542E8C5724F5 /* Pods-coffeeTrio-coffeeTrioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeTrio-coffeeTrioTests.debug.xcconfig"; path = "Target Support Files/Pods-coffeeTrio-coffeeTrioTests/Pods-coffeeTrio-coffeeTrioTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-coffeeTrio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coffeeTrio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = coffeeTrio/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83AB9A1DE0E04FB396298592 /* Inconsolata-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inconsolata-Bold.ttf"; path = "../src/assets/fonts/Inconsolata-Bold.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-coffeeTrio-coffeeTrioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeTrio-coffeeTrioTests.release.xcconfig"; path = "Target Support Files/Pods-coffeeTrio-coffeeTrioTests/Pods-coffeeTrio-coffeeTrioTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5AE48E9D7BB4B7E8D933459 /* Inconsolata-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inconsolata-Regular.ttf"; path = "../src/assets/fonts/Inconsolata-Regular.ttf"; sourceTree = "<group>"; };
+		CBB200C37CE84A269485C515 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-Regular.ttf"; path = "../src/assets/fonts/DancingScript-Regular.ttf"; sourceTree = "<group>"; };
+		D1EC3C6C0CE243CEB5298E78 /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-Bold.ttf"; path = "../src/assets/fonts/DancingScript-Bold.ttf"; sourceTree = "<group>"; };
+		DF08A86028AD4AD0B34D69C2 /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-Medium.ttf"; path = "../src/assets/fonts/DancingScript-Medium.ttf"; sourceTree = "<group>"; };
+		E1D41F8981A642F0B38E78DA /* Inconsolata-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inconsolata-Light.ttf"; path = "../src/assets/fonts/Inconsolata-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		D1EC3C6C0CE243CEB5298E78 /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; name = "DancingScript-Bold.ttf"; path = "../src/assets/fonts/DancingScript-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DF08A86028AD4AD0B34D69C2 /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; name = "DancingScript-Medium.ttf"; path = "../src/assets/fonts/DancingScript-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CBB200C37CE84A269485C515 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; name = "DancingScript-Regular.ttf"; path = "../src/assets/fonts/DancingScript-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		83AB9A1DE0E04FB396298592 /* Inconsolata-Bold.ttf */ = {isa = PBXFileReference; name = "Inconsolata-Bold.ttf"; path = "../src/assets/fonts/Inconsolata-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E1D41F8981A642F0B38E78DA /* Inconsolata-Light.ttf */ = {isa = PBXFileReference; name = "Inconsolata-Light.ttf"; path = "../src/assets/fonts/Inconsolata-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C5AE48E9D7BB4B7E8D933459 /* Inconsolata-Regular.ttf */ = {isa = PBXFileReference; name = "Inconsolata-Regular.ttf"; path = "../src/assets/fonts/Inconsolata-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +118,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2DA2AA2C46F542059ECF6516 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1EC3C6C0CE243CEB5298E78 /* DancingScript-Bold.ttf */,
+				DF08A86028AD4AD0B34D69C2 /* DancingScript-Medium.ttf */,
+				CBB200C37CE84A269485C515 /* DancingScript-Regular.ttf */,
+				83AB9A1DE0E04FB396298592 /* Inconsolata-Bold.ttf */,
+				E1D41F8981A642F0B38E78DA /* Inconsolata-Light.ttf */,
+				C5AE48E9D7BB4B7E8D933459 /* Inconsolata-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,20 +174,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		2DA2AA2C46F542059ECF6516 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				D1EC3C6C0CE243CEB5298E78 /* DancingScript-Bold.ttf */,
-				DF08A86028AD4AD0B34D69C2 /* DancingScript-Medium.ttf */,
-				CBB200C37CE84A269485C515 /* DancingScript-Regular.ttf */,
-				83AB9A1DE0E04FB396298592 /* Inconsolata-Bold.ttf */,
-				E1D41F8981A642F0B38E78DA /* Inconsolata-Light.ttf */,
-				C5AE48E9D7BB4B7E8D933459 /* Inconsolata-Regular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -597,7 +597,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -631,6 +631,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -668,7 +669,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -694,6 +695,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
