@@ -1,7 +1,7 @@
 export const colors = {
   // background
-  primary_background: '#442E0B',
-  secondary_bacground: '#625A4C',
+  primary_background: '#212529',
+  secondary_bacground: '#343A40',
   // buttons
   primary_button: '#D6AD78',
   button_green: '#74935A',
@@ -17,4 +17,8 @@ export const colors = {
   primary_border: '#FFFFFF',
   secondary_border: '#D6AD78',
   red_border: '#CE3729',
+  // icons
+  icon_white: '#FFF',
+  icon_green: '#74935A',
+  icon_red: '#CE3729',
 };

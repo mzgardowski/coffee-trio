@@ -18,7 +18,6 @@ const CustomButton = ({ typeBtn, ...restProps }: CustomButtonInterface) => {
           title="200"
           buttonStyle={[styles.buttonStyle, styles.primaryButton]}
           titleStyle={[styles.primaryTextButton]}
-          containerStyle={styles.containerStyle}
           {...restProps}
         />
       );
@@ -27,7 +26,6 @@ const CustomButton = ({ typeBtn, ...restProps }: CustomButtonInterface) => {
         <Button
           buttonStyle={[styles.buttonStyle, styles.secondaryButton]}
           titleStyle={[styles.secondaryTextButton]}
-          containerStyle={styles.containerStyle}
           {...restProps}
         />
       );
@@ -42,7 +40,6 @@ const styles = StyleSheet.create({
     padding: Spacing.s8,
     borderRadius: 24,
   },
-  containerStyle: { borderRadius: 20 },
   primaryButton: {
     backgroundColor: colors.primary_button,
   },

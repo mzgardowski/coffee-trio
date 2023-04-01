@@ -6,11 +6,9 @@ import AppStackNavigation from './src/Navigation/AppStackNavigation';
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView>
-      <NavigationContainer>
-        <AppStackNavigation />
-      </NavigationContainer>
-    </SafeAreaView>
+    <NavigationContainer>
+      <AppStackNavigation />
+    </NavigationContainer>
   );
 }
 

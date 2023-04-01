@@ -1,12 +1,20 @@
 import React from 'react';
-import { Text } from '@rneui/base';
+import { Text, type TextProps } from '@rneui/base';
 import { colors } from 'src/utils/colors';
 import { TextSize } from 'src/utils/textSize';
 import { FontTypes } from 'src/utils/fontTypes';
 
-type TypographyTypes = 'headline1' | 'headLine2' | 'button1' | 'button2';
+type TypographyTypes =
+  | 'headline1'
+  | 'headLine2'
+  | 'button1'
+  | 'button2'
+  | 'normal1'
+  | 'normal2'
+  | 'small1'
+  | 'small2';
 
-interface TypographyInterface {
+interface TypographyInterface extends TextProps {
   text: string;
   type: TypographyTypes;
 }
@@ -24,12 +32,32 @@ const typographyStyle = {
   headline1: {
     fontSize: TextSize.s40,
     fontFamily: FontTypes.DancingBold,
-    color: colors.text_black,
+    color: colors.text_white,
   },
   headLine2: {
     fontSize: TextSize.s36,
     fontFamily: FontTypes.DancingMedium,
-    color: colors.text_black,
+    color: colors.text_white,
+  },
+  normal1: {
+    fontSize: TextSize.s24,
+    fontFamily: FontTypes.InconsolataBold,
+    color: colors.text_white,
+  },
+  normal2: {
+    fontSize: TextSize.s24,
+    fontFamily: FontTypes.InconsolataRegular,
+    color: colors.text_white,
+  },
+  small1: {
+    fontSize: TextSize.s12,
+    fontFamily: FontTypes.InconsolataRegular,
+    color: colors.text_white,
+  },
+  small2: {
+    fontSize: TextSize.s12,
+    fontFamily: FontTypes.InconsolataRegular,
+    color: colors.text_white,
   },
   button1: {
     fontSize: TextSize.s18,
