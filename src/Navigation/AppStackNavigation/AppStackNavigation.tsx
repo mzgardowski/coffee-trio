@@ -3,14 +3,10 @@ import { createStackNavigator } from '@react-navigation/stack';
 import LoginScreen from 'src/Pages/LoginScreen';
 import Sandbox from 'src/Pages/Sandbox';
 import WelcomeScreen from 'src/Pages/WelcomeScreen';
+import AppTabNavigation from 'src/Navigation/AppTabNavigation';
+import { type RootStackParamList } from 'src/Navigation/types';
 
-export type StackNavigationInterface = {
-  WelcomeScreen: undefined;
-  LoginScreen: undefined;
-  Sandbox: undefined;
-};
-
-const StackNavigation = createStackNavigator<StackNavigationInterface>();
+const StackNavigation = createStackNavigator<RootStackParamList>();
 
 const defaultScreenOptions = {
   headerShown: false,
@@ -27,6 +23,11 @@ const AppStackNavigation = () => {
       <StackNavigation.Screen
         name="LoginScreen"
         component={LoginScreen}
+        options={{ ...defaultScreenOptions }}
+      />
+      <StackNavigation.Screen
+        name="TabNavigation"
+        component={AppTabNavigation}
         options={{ ...defaultScreenOptions }}
       />
       <StackNavigation.Screen

@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-
 import CustomButton from 'src/Components/CustomButton';
 import Typography from 'src/Components/Typography';
 import CoffeeCupIcon from 'src/assets/icons/CoffeeCupIcon';
@@ -9,8 +8,14 @@ import GroupIcon from 'src/assets/icons/GroupIcon';
 import HangOutIcon from 'src/assets/icons/HangOutIcon';
 import { colors } from 'src/utils/colors';
 import { Spacing } from 'src/utils/spacing';
+import { type RootStacknavigation } from 'src/Navigation/types';
 
-const WelcomeScreen = () => {
+const WelcomeScreen = ({
+  navigation,
+}: RootStacknavigation<'WelcomeScreen'>) => {
+  const handleClick = () => {
+    navigation.navigate('TabNavigation');
+  };
   return (
     <View style={styles.background}>
       <View style={styles.contentContainer}>
@@ -35,6 +40,7 @@ const WelcomeScreen = () => {
       </View>
       <View style={styles.buttonArea}>
         <CustomButton
+          onPress={handleClick}
           typeBtn="primary"
           title={<Typography type="button1" text="Let's Go" />}
         />

@@ -50,8 +50,8 @@ const typographyStyle = {
     color: colors.text_white,
   },
   small1: {
-    fontSize: TextSize.s12,
-    fontFamily: FontTypes.InconsolataRegular,
+    fontSize: TextSize.s14,
+    fontFamily: FontTypes.InconsolataBold,
     color: colors.text_white,
   },
   small2: {
