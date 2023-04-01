@@ -30,7 +30,7 @@ const AppTabNavigation = () => {
         tabBarStyle: styles.tabBar,
         tabBarItemStyle: styles.item,
         tabBarHideOnKeyboard: true,
-        tabBarActiveBackgroundColor: colors.primary_button,
+        tabBarActiveBackgroundColor: colors.secondary_border,
         headerShown: false,
       }}>
       <TabNavigation.Screen
@@ -100,7 +100,9 @@ const styles = StyleSheet.create({
     marginBottom: Spacing.s12,
     height: 80,
     borderRadius: 18,
-    backgroundColor: colors.secondary_bacground,
+    backgroundColor: colors.primary_background,
+    position: 'absolute',
+    zIndex: 9999,
   },
   item: {
     margin: Spacing.s8,

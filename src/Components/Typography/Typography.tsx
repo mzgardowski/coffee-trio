@@ -6,7 +6,9 @@ import { FontTypes } from 'src/utils/fontTypes';
 
 type TypographyTypes =
   | 'headline1'
-  | 'headLine2'
+  | 'headline2'
+  | 'headline3'
+  | 'headline4'
   | 'button1'
   | 'button2'
   | 'normal1'
@@ -34,9 +36,19 @@ const typographyStyle = {
     fontFamily: FontTypes.DancingBold,
     color: colors.text_white,
   },
-  headLine2: {
+  headline2: {
     fontSize: TextSize.s36,
     fontFamily: FontTypes.DancingMedium,
+    color: colors.text_white,
+  },
+  headline3: {
+    fontSize: TextSize.s40,
+    fontFamily: FontTypes.DancingBold,
+    color: colors.text_white,
+  },
+  headline4: {
+    fontSize: TextSize.s36,
+    fontFamily: FontTypes.InconsolataRegular,
     color: colors.text_white,
   },
   normal1: {
@@ -72,7 +84,6 @@ const typographyStyle = {
 };
 
 const Typography = ({ text, type }: TypographyInterface) => {
-  console.log(text);
   return <Text style={{ ...typographyStyle[type] }}>{text}</Text>;
 };
 

@@ -15,7 +15,6 @@ const CustomButton = ({ typeBtn, ...restProps }: CustomButtonInterface) => {
     case 'primary':
       return (
         <Button
-          title="200"
           buttonStyle={[styles.buttonStyle, styles.primaryButton]}
           titleStyle={[styles.primaryTextButton]}
           {...restProps}
@@ -36,9 +35,9 @@ const CustomButton = ({ typeBtn, ...restProps }: CustomButtonInterface) => {
 
 const styles = StyleSheet.create({
   buttonStyle: {
-    margin: Spacing.s8,
     padding: Spacing.s8,
     borderRadius: 24,
+    width: '100%',
   },
   primaryButton: {
     backgroundColor: colors.primary_button,
