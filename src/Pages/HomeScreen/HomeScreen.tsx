@@ -31,6 +31,11 @@ const HomeScreen = () => {
             <Typography type="headline2" text="Hello Mateusz" />
           </View>
         }
+        ListFooterComponent={
+          <View
+            style={{ height: 95, backgroundColor: 'rgba(52, 52, 52, 0)' }}
+          />
+        }
         data={DATA}
         renderItem={({ item }) => (
           <HomeItem title={item.title} fav={item.fav} id={item.id} />
