@@ -8,14 +8,55 @@ import GroupIcon from 'src/assets/icons/GroupIcon';
 import HangOutIcon from 'src/assets/icons/HangOutIcon';
 import { colors } from 'src/utils/colors';
 import { Spacing } from 'src/utils/spacing';
+import RealmContext from 'src/realm/RealmContext';
+import uuid from 'react-native-uuid';
+import {
+  COFFEELIST_SCHEMA,
+  COFFEE_SCHEMA,
+  COFFEEMAKESTEPS_SCHEMA,
+} from 'src/realm/schemas/coffeeSchema/coffeeSchema';
 import { type RootStacknavigation } from 'src/Navigation/types';
 
 const WelcomeScreen = ({
   navigation,
 }: RootStacknavigation<'WelcomeScreen'>) => {
+  const { useRealm, useQuery } = RealmContext;
+  const realm = useRealm();
+  const coffeeList = useQuery(COFFEELIST_SCHEMA);
+  console.log(coffeeList);
   const handleClick = () => {
-    navigation.navigate('TabNavigation');
+    realm.write(() => {
+      const step1 = realm.create(COFFEEMAKESTEPS_SCHEMA, {
+        _id: uuid.v4(),
+        stepNum: 1,
+        stepDesc: 'Zmiel kawę',
+      });
+      const step2 = realm.create(COFFEEMAKESTEPS_SCHEMA, {
+        _id: uuid.v4(),
+        stepNum: 2,
+        stepDesc: 'Dodaj sitko',
+      });
+
+      const coffee1 = realm.create(COFFEE_SCHEMA, {
+        _id: uuid.v4(),
+        name: 'Espresso',
+        desc: 'Kawa włoska',
+        prepareTime: 5,
+        steps: [step1, step2],
+      });
+
+      const coffeelist = realm.create(COFFEELIST_SCHEMA, {
+        _id: uuid.v4(),
+        coffeeType: 'Bez mleka',
+        coffees: [coffee1],
+      });
+
+      console.log(coffeelist);
+    });
+
+    // navigation.navigate('TabNavigation');
   };
+
   return (
     <View style={styles.background}>
       <View style={styles.contentContainer}>
